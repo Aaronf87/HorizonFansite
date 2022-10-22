@@ -1,0 +1,297 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&family=Zen+Antique&display=swap" rel="stylesheet"> 
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>my first Webpage</title>
+    <meta charset = "utf-8">
+    <meta name="robots" content="noindex"/>
+    <style>
+     *{
+      font-family:fantasy;
+      
+     
+     }
+     
+      a{
+        text-decoration: none;
+      }
+     a:hover{
+      transform: scale(1.2); 
+     }
+      .main-nav{
+          /* position: fixed; */
+          top:0px; 
+          background-color: rgb(69, 82, 223);
+          /* border-radius:10px; */
+          display: flex;
+          justify-content: center;
+          padding: 5px 0px;
+          color:whitesmoke;
+          font-family:fantasy;
+      
+      }
+     
+      .links:hover{
+        /* box-shadow:rgb(239, 239, 243) inset -2px -5px 3px; */
+        transform: scale(1.2); 
+        
+      }
+      .links:active {
+        box-shadow:rgb(51, 51, 141) inset -2px -2px 3px;
+      }
+      li {
+        list-style: none;
+        background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));
+        
+      }
+      li:hover { 
+       transform: scale(1.2); 
+      }
+      .aloy-details{
+        display:flex;
+        justify-content: center;
+      
+        /* padding: 40px; */
+        
+      }
+      .left-box{
+      border: 5px;
+      margin-right: 0px;
+      width: 300px;
+      }
+      .right-box {
+      border: 0px;
+      margin-left: 100px;
+      }
+      #image{
+        border-radius:25px;
+      }
+
+      .image-text{
+        background-image:url(./images/A-new-story-trailer-for-Horizon-Forbidden-West-928x400.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* outline: 2px solid white; */
+      
+        color: rgb(223, 231, 223);
+        width: 100%;
+        height: 700px;
+        position: relative;
+        top: 0px;
+        z-index: 2;
+      }
+      h4{
+        outline: solid rgb(14, 1, 1) 2px;
+        background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));
+        color:rgb(228, 220, 220);
+        
+        width: 150px;
+        height: 70px;
+        /**fix position to mid-left side "call to action button: DONE BY DISPLAY FLEX**/
+        position: relative;
+        top: 400px;
+        left:850px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+      
+      }
+      h4:hover{
+        background-color: rgb(185, 185, 230);
+        color:rgb(228, 220, 220);
+        transform: scale(1.2); 
+      }
+
+      
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        
+      }
+
+      h3 {
+
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 5px;
+      }
+      body {
+        background-color: black;
+        padding-left: 5px;
+        color: rgb(200, 201, 212);
+        text-align: center;
+        border-radius: 50px;
+        letter-spacing: 5px;
+        
+        
+      }
+
+
+      /*.aloy-image-main {
+       
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+        border: 5px solid rgb(7, 6, 82);
+
+      }*/
+     
+      div {
+        
+        
+        margin: auto;
+        border-radius: 50px;
+      }
+
+      span {
+        border: 1px solid red;
+      }
+      .top-button{
+        background-color: rgb(69, 82, 223);
+        color:rgb(200, 201, 212);
+        width: 180px;
+      }
+      
+    footer{
+        background-color: rgb(33, 85, 85);
+    }
+    .footer-info{
+        margin: 0px;
+        display: flex; 
+        justify-content: center;
+        /* padding: 50px;   */
+        margin: 50px;
+    }
+    .item {
+  /* background: rgb(19, 1, 1); */
+  width: 500px;
+  height: 50px;
+  margin: 0 5px;
+
+}
+    </style>
+
+    <nav class = "main-nav">
+      <div class = "links"><a href = "#">Home</a></div>
+      <div class = "links"><a href = "https://horizon.fandom.com/wiki/Horizon_Wiki" target = "_blank">Lore Wiki</a></div>
+      <div class = "links"><a href = "#videos-section">Videos</a></div>
+      <div class = "links"><a href = "#" target = "_blank">Machines Wiki</a></div>
+      <div class = "links"><a href = "https://twitter.com/Guerrilla" target = "_blank">Media pages</a></div>
+    </nav>
+    <!--insert call to action text Explore-->
+    <div class = "banner-image"> <div class = "image-text"><h4>Explore</h4></div>
+    
+    </div>
+
+</head>
+  
+  <body a link = "white" vlink = "whitesmoke">
+    <h1>About Aloy</h1>
+    <aside class = "aloy-details">
+      
+      <div class ="left-box"><p>"Aloy trained as a child 
+      by Rost to become the Savior
+      of Meridian."</p></div>
+      <div class = "right-box">
+      <a href = "https://horizon.fandom.com/wiki/Aloy" target = "_blank"><img id="image" src="images/aloylogo1.jpg" alt="aloy in horizon zero dawn" width="355" height="340"/></a>
+     <br/><br/><br/><br/>
+      </div>
+    </aside>
+
+      <hr style="width:40%">
+      <h3>Facts about Aloy</h3>
+
+      
+      
+      <ul>
+        <li>Machine killer</li>
+        <li>Savior of life</li>
+        <li>Of the Nora tribe</li>
+    
+      </ul>
+      
+    <hr style = "width:40%">
+     <h2> <a name = "videos-section"> </a> Videos</h2>
+
+     <!--youtube shared video inserted here-->
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hH4reMi0UXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p>The latest trailers - New Threats</p>
+
+      <br>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UxDWGW7Z67I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <br>
+       <p>New Story Trailer</p>
+       <!--insert drop down list for machine list and info-->
+       <section>
+         <br><br>
+        <label for ="machine list"> Select a machine</label>
+        <select>
+          <option>Tall neck</option>
+          <option>Bellow back</option>
+          <option>Stalker</option>
+          <option>Slitherfang</option>
+  
+  
+        </select>
+    <button>Select</button>
+        </section>
+        <br>
+        <hr style="width:40%">
+        <section>
+            <p>
+                Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment. The sequel to 2017's Horizon Zero Dawn, the game is set in a post-apocalyptic version of the Western United States recovering from the aftermath of an extinction event caused by a rogue robot swarm. The player can explore the open world and complete quests using ranged and melee weapons against hostile machine creatures.
+            </p>
+            <aside>
+                <p>"Aloy dispite the Nora"</p>
+            </aside>
+            <p>
+                Horizon Forbidden West continues the story of Aloy (Ashly Burch), a young hunter of the Nora tribe and a clone of the Old World scientist Elisabet Sobeck, as she leads a band of companions on a quest to the arcane frontier known as the Forbidden West to find the source of a mysterious plague that kills all it infects. On her journey across these uncharted lands, Aloy encounters new regions ravaged by massive storms and deadly machines, and conflicts with a tribe of nomadic raiders who have tamed the machines as war mounts. She discovers a vast array of environments and ecosystems, including lush valleys, dry deserts, snowy mountains, tropical beaches, ruined cities, and underwater settings.<sup>[8]</sup>
+            </p>
+        </section>
+    <footer>
+        <p>
+            Here's the twitter link to
+            <a href="https://twitter.com/Guerrilla" target = "_blank">Horizon Zero Dawn / Forbidden West</a> for more
+            information.
+        </p>
+        <section class = "footer-info">
+            <p class = "item">contact us at ..</p>
+            <p class = "item">twitter</p>
+            <p class = "item">instagram </p>
+            <p class = "item">bio</p>
+            
+        </section>
+        <br>
+        <br>
+
+        <div class = "top-button"><a href = "#">Return to top</a></div>
+     </footer>
+     <script src = "my_horizonfile.js"></script>
+
+              
+
+  </body>
+  
+</html>
+      
+        
