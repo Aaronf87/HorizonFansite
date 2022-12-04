@@ -12,193 +12,9 @@
     <title>my first Webpage</title>
     <meta charset = "utf-8">
     <meta name="robots" content="noindex"/>
-    <style>
-     *{
-      font-family:fantasy;
-      
-     
-     }
-     a:hover{
-      transform: scale(1.2); 
-     }
-      a{
-        text-decoration: none;
-      }
-   
-      .main-nav{
-          /* position: fixed; */
-          top:0px; 
-          background-color: rgb(69, 82, 223);
-          /* border-radius:10px; */
-          display: flex;
-          justify-content: center;
-          padding: 5px 0px;
-          color:whitesmoke;
-          font-family:fantasy;
-      
-      }
-     
-      .links:hover{
-        /* box-shadow:rgb(239, 239, 243) inset -2px -5px 3px; */
-        transform: scale(1.2); 
-        
-      }
-      .links:active {
-        box-shadow:rgb(51, 51, 141) inset -2px -2px 3px;
-      }
-      li {
-        list-style: none;
-        background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));
-        
-      }
-      li:hover { 
-       transform: scale(1.2); 
-      }
-      .aloy-details{
-        display:flex;
-        justify-content: center;
-      
-        /* padding: 40px; */
-        
-      }
-      .left-box{
-      border: 5px;
-      margin-right: 0px;
-      width: 300px;
-      }
-      .right-box {
-      border: 0px;
-      margin-left: 100px;
-      }
-      #image{
-        border-radius:25px;
-      }
-
-      .image-text{
-        background-image:url(./images/A-new-story-trailer-for-Horizon-Forbidden-West-928x400.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      
-        /* outline: 2px solid white; */
-      
-        color: rgb(223, 231, 223);
-        width: 100%;
-        height: 700px;
-        position: relative;
-        top: 0px;
-        z-index: 2;
-      }
-      h4{
-        outline: solid rgb(14, 1, 1) 2px;
-        background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));
-        color:rgb(228, 220, 220);
-        
-        width: 150px;
-        height: 70px;
-        /**fix position to mid-left side "call to action button: DONE BY DISPLAY FLEX**/
-        /* position: relative; */
-        top: 400px;
-        left:850px;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-
-      
-      }
-      h4:hover{
-        
-        background-color: rgb(185, 185, 230);
-        color:rgb(228, 220, 220);
-        transform: scale(1.1); 
-      }
-
-      
-
-      h1 {
-        text-align: center;
-        font-size: 50px;
-        text-transform: uppercase;
-        
-      }
-
-      h3 {
-
-        font-size: 40px;
-      }
-
-      p {
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 3px;
-      }
-      body {
-        background-color: black;
-        padding-left: 5px;
-        color: rgb(200, 201, 212);
-        text-align: center;
-        border-radius: 50px;
-        letter-spacing: 5px;
-        
-        
-      }
-
-
-      /*.aloy-image-main {
-       
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 50px;
-        border: 5px solid rgb(7, 6, 82);
-
-      }*/
-     
-      div {
-        
-        
-        margin: auto;
-        border-radius: 50px;
-      }
-
-      span.links:hover {
-        border: 1px solid red;
-    
-      }
-    
-      .top-button{
-        background-color: rgb(69, 82, 223);
-        color:rgb(200, 201, 212);
-        width: 180px;
-        height: 50px;
-      }
-      
-    footer{
-        background-color: rgb(33, 85, 85);
-    }
-    .footer-info{
-        margin: 0px;
-        display: flex; 
-        justify-content: center;
-        /* padding: 50px;   */
-        margin: 50px;
-    }
-    .item {
-  /* background: rgb(19, 1, 1); */
-  width: 500px;
-  height: 50px;
-  margin: 0 5px;
-
-}
-.machsel {
-letter-spacing: 5px;
-}
-.redCostume {
-    border-radius: 20px;
-}
-
-    </style>
-
+    <link rel="stylesheet" href="aloySite.css">
+</head>
+<header>
     <nav class = "main-nav">
       <div class = "links"><a href = "#">Home</a></div>
       <div class = "links"><a href = "https://horizon.fandom.com/wiki/Horizon_Wiki" target = "_blank">Lore Wiki</a></div>
@@ -208,10 +24,10 @@ letter-spacing: 5px;
     </nav>
     <!--insert call to action text Explore-->
     <div class = "banner-image"> <div class = "image-text"><h4>Explore</h4></div>
+</div>
     
-    </div>
+</header>
 
-</head>
   
   <body a link = "white" vlink = "whitesmoke">
     <h1>About Aloy</h1>
