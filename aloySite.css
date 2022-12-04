@@ -1,7 +1,7 @@
 
      *{
       font-family:fantasy;
-      
+  
      
      }
      a:hover{
@@ -60,11 +60,12 @@
         border-radius:25px;
       }
 
-      .image-text{
-        background-image:url(./images/A-new-story-trailer-for-Horizon-Forbidden-West-928x400.jpeg);
+      /* .image-text{ */
+        .banner-image{ background-image:url(aloysitephotos\A-new-story-trailer-for-Horizon-Forbidden-West-928x400.jpeg);
+
         background-repeat: no-repeat;
         background-size: cover;
-      
+        background-color: solid red 1px;
         /* outline: 2px solid white; */
       
         color: rgb(223, 231, 223);
@@ -179,7 +180,7 @@
 .machsel {
 letter-spacing: 5px;
 }
-.redCostume {
+ .tenakCostume {
     border-radius: 20px;
 }
 
