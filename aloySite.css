@@ -60,8 +60,7 @@
         border-radius:25px;
       }
 
-      /* .image-text{ */
-        .banner-image{ background-image:url(C:\Users\admin\Desktop\Github\Horizonsite\aloysitephotos\A-new-story-trailer-for-Horizon-Forbidden-West-928x400.jpeg);
+      .image-text{ background-image: url(aloysitephotos/A-new-story-trailer-for-Horizon-Forbidden-West-928x400.jpeg);
 
         background-repeat: no-repeat;
         background-size: cover;
