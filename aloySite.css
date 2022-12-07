@@ -90,8 +90,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
+      
 
+        }
+        .dispite {
+            border: 5px;
+            padding-top: 260px;
+            padding-right: 50px;
+            
       
       }
       h4:hover{
