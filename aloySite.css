@@ -51,7 +51,7 @@
         border-radius:25px;
         height: 500px;
         width: 400;
-        padding: 500;
+     
       }
       .left-box{
       border: 5px;
@@ -103,8 +103,8 @@
             /* color: darkred; */
             /* text-shadow: #ede6e6; */
             font-size: larger;
-          background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));;
-        } */
+          background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));
+        } 
         .dispite {
             border: 5px;
             padding-top: 260px;
