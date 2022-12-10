@@ -92,13 +92,13 @@
         justify-content: center;
       
 
-        }
+        /* }
         h5{
             /* color: darkred; */
             /* text-shadow: #ede6e6; */
             font-size: larger;
           background: linear-gradient(35deg, #af9191, rgb(69, 82, 223));;
-        }
+        } */
         .dispite {
             border: 5px;
             padding-top: 260px;
@@ -195,5 +195,7 @@ letter-spacing: 5px;
  .tenakCostume {
     border-radius: 20px;
 }
-
+.outline {
+    -webkit-text-stroke: #0a0aa3 2px ;
+}
   
