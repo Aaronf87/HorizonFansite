@@ -19,16 +19,21 @@ a {
 .main-nav {
   /* position: fixed; */
   top: 0px;
-  background-color: rgb(69, 82, 223);
+  /* background-color: rgb(69, 82, 223); */
   /* border-radius:10px; */
-  display: flex;
-  justify-content: left;
-  padding: 5px 0px;
+  display: inline-flex;
+  box-sizing: border-box;
+  /* justify-content: left; */
+  padding: 5px 20px;
   color: whitesmoke;
   font-family: fantasy;
+  text-align: start;
 
 }
 
+.links {
+  padding: 20px;
+}
 
 .links:hover {
   /* box-shadow:rgb(239, 239, 243) inset -2px -5px 3px; */
