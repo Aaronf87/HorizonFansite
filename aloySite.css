@@ -10,6 +10,7 @@
   border-radius: 2rem;
   margin: 10%;
   padding: 4%;
+  opacity: 0.5;
 }
 
 
@@ -28,8 +29,6 @@ a:hover {
 .main-nav {
   /* position: fixed; */
   top: 0px;
-  /* background-color: rgb(69, 82, 223); */
-  /* border-radius:10px; */
   display: inline-flex;
   box-sizing: border-box;
   padding: 5px 20px;
@@ -110,6 +109,15 @@ li:hover {
   position: relative;
   top: 0px;
   z-index: 2;
+}
+
+.facts {
+  background-color: rgb(42, 42, 109);
+  opacity: 0.5;
+}
+
+iframe {
+  border-radius: 0.5rem;
 }
 
 /* heading tags start here */
