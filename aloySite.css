@@ -114,9 +114,12 @@ li:hover {
 
 .facts {
   background-image: url(aloysitephotos/redGrass.avif);
-  opacity: 0.5;
+  padding: 10%;
 }
 
+.facts li {
+  font-size: 40px;
+}
 
 iframe {
   border-radius: 0.5rem;
