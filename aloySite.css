@@ -219,14 +219,14 @@ body {
 
 
 
-.lastp {
+/* .lastp {
   transition: 0.25s;
 }
 
-.lastp:hover {
+.lastp :hover {
   text-transform: scale(1.2);
 
-}
+} */
 
 #moreinfo {
   margin-top: 20px;
