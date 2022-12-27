@@ -30,14 +30,11 @@ a:hover {
 
 .main-nav {
   /* position: fixed; */
-  top: 0px;
-  display: inline-flex;
-  box-sizing: border-box;
-  padding: 5px 20px;
-  color: rgb(16, 5, 5);
-  font-family: fantasy;
-  text-align: start;
-
+  /* top: 50px; */
+  display: flex;
+  justify-content: left;
+  gap: 3rem;
+  margin: 10px;
 }
 
 .links {
