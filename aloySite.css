@@ -69,7 +69,7 @@ li:hover {
 .aloy-details {
   display: flex;
   justify-content: center;
-
+  align-items: center;
   padding: 40px;
 
 }
@@ -169,16 +169,6 @@ h4:hover {
   transform: scale(1.1);
 }
 
-.dispite {
-  border: 5px;
-  text-align: center;
-  justify-content: center;
-  margin-top: 20%;
-  /* padding-top: 260px;
-  padding-right: 50px; */
-
-
-}
 
 
 p {
