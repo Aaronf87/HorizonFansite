@@ -1,6 +1,6 @@
 # Horizon Site Project
 
-# This Horizon site project Webpage was made as a starting guide in my early software development role.   This guide allowed me to implement the foundations of HTML, CSS, and Git as I learned it while leaving reminders of what was learned though out the process.  As a fan of the Horizon games, my goal was to challenge myself creatively and create a functional site anyone can interact with.  
+ This Horizon site project Webpage was made as a starting guide in my early software development role.   This guide allowed me to implement the foundations of HTML, CSS, and Git as I learned it while leaving reminders of what was learned though out the process.  As a fan of the Horizon games, my goal was to challenge myself creatively and create a functional site anyone can interact with.  
 
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
