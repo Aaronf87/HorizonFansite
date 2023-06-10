@@ -18,6 +18,12 @@ N/A
 
 This webpage contains HTML, CSS, Git version control.  If you open the devTools in you web browser, you can inspect the JavaScript running.  HTML was learned first to structure the page.  CSS was implemented to style the content.  JavaScript allow the page to function when the page displayed.  Git was used to save and then pushed to Git Hub.  I intend to update this site thoughout my learning process.
 
+## I have included an image of the site and a link below!
+
+https://aaronf87.github.io/HorizonFansite/
+
+![The Horizon Fan webpage includes a navigation bar, a header image, and cards with staring text.](aloysitephotos/website-photo.jpg)
+
 ## Credits
 
 N/A
